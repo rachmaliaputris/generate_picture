@@ -1,0 +1,641 @@
+.responsive {
+  display: none;
+}
+
+#footer-text div:first-child {
+  display: inline-block;
+}
+
+.somegoods160 {
+  display: none !important;
+}
+
+.submition {
+  cursor: pointer;
+}
+
+.attentionimg {
+  width: 21px;
+  margin-bottom: 5px;
+}
+
+.inputs {
+  width: 750px;
+  margin: auto;
+}
+
+#namefield,
+#emailfield {
+  width: 200px;
+  height: 30px;
+  border-radius: 0;
+}
+
+.coffesubmiter {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  background-image: none;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.gameicon {
+  width: 42px;
+  margin-bottom: 5px;
+}
+
+.coffeetick {
+  width: 40px;
+}
+
+#constructor {
+  margin: -8px 0; }
+  #constructor .pixel-loading {
+    text-align: center;
+    margin-top: 50px; }
+    #constructor .pixel-loading .headline {
+      font-size: 20pt !important; }
+    #constructor .pixel-loading .progress {
+      margin-top: 20px; }
+  #constructor .page-header {
+    overflow: hidden;
+    border-bottom: 1px solid;
+    border-color: rgba(0, 0, 0, 0.62);
+    height: 86px;
+    margin-bottom: 30px;
+    }
+  #constructor .force-vader {
+    margin: 17px 40px 0 0;
+    float: right;
+    width: 200px;
+    display: inline-block;
+    text-align: right; 
+    position: relative;
+    background-image: url('/static/images/told.png');
+    background-repeat: no-repeat;
+    background-position: 48px 0px;
+    height: 65px;}
+    #constructor .force-vader .wisdom {
+      font-size: 16px;
+      color: rgb(0, 0, 0);
+      font-family: "MullerW00-UltraLight"; 
+      position: absolute;
+      left: 65px;
+      right: 14px;
+      top: 4px;
+      text-align: center;}
+    #constructor .force-vader img {
+      width: 35px;
+      vertical-align: bottom;
+      padding: 34px 158px 1px 5px; }
+
+    #constructor .force-vader .toldPic {
+      width: 150px;
+      vertical-align: top;
+      padding: 0 0 10px 5px; }      
+
+
+#constructor-panel {
+  display: none; 
+  width: 1000px;}
+  #constructor-panel .viewport {
+    margin: 10px 0 30px;
+    display: table;
+    width: 100%; }
+    #constructor-panel .viewport .viewport-col {
+      display: table-cell;
+      vertical-align: top; }
+      #constructor-panel .viewport .viewport-col.modal-col {
+        width: 450px;
+         }
+  #constructor-panel .carousel {
+    display: inline-block;
+    width: 400px;
+    height: 400px; }
+  #constructor-panel .layers .layer {
+    display: none; }
+    #constructor-panel .layers .layer.active {
+      outline: none;
+      display: block; }
+    #constructor-panel .layers .layer .item {
+      display: inline-block;
+      cursor: pointer;
+      width: 116px;
+      height: 112px;
+      margin: 0 10px 9px 0;
+      position: relative;
+      /* ie */
+      border: 1px solid black;
+      border: 1px solid rgba(0, 0, 0, 0.2); }
+      #constructor-panel .layers .layer .item:hover {
+        /* ie */
+        background: #eee;
+        background: rgba(200, 200, 200, 0.3); }
+      #constructor-panel .layers .layer .item > span {
+        display: none;
+        width: 27px;
+        height: 27px;
+        position: absolute;
+        bottom: 3px;
+        right: 3px;
+        background: url("../images/constructor/current_item.png") 50% 50% no-repeat; }
+      #constructor-panel .layers .layer .item.active > span {
+        display: inline-block; }
+  #constructor-panel .tabs-bar {
+    margin: 20px 0 22px; }
+  #constructor-panel .groups {
+    margin: 0 20px 0 0;
+    width: 540px;
+    text-align: center; }
+    #constructor-panel .groups a {
+      opacity: .5;
+      display: inline-block; }
+      #constructor-panel .groups a + a {
+        margin-left: 10px; }
+      #constructor-panel .groups a:hover {
+        opacity: .8; }
+      #constructor-panel .groups a.active {
+        opacity: 1; }
+  #constructor-panel .layers-regenerate {
+    display: block;
+    float: left;
+    background-image: url('/static/images/Refresh.png');
+    background-repeat: no-repeat;
+    background-position: 20px 21px;
+    display: block;
+    background-color: rgb(2, 119, 189);
+    width: 152px;
+    height: 60px;
+    font-size: 19px;
+    font-family: "MullerW00-Regular";
+    color: rgb(255, 255, 255);
+    line-height: 60px;
+    padding-left: 61px;
+    outline: none;
+    }
+  #constructor-panel .hidden-group {
+    display: none !important; }
+
+.nav.tabs {
+  margin: 0; }
+
+#action-buttons {
+   }
+  #action-buttons .btn.loading {
+    background-image: url("../images/index/ajax-loader.gif");
+    background-repeat: no-repeat;
+    background-position: 99% 50%; }
+
+#buy-me-a-coffee {
+  text-align: center;
+  margin: 40px 0 0;
+  font-size: 20px; 
+font-family: "MullerW00-UltraLight";
+  }
+
+
+.butn {
+  padding-right: 10px;
+}
+
+.get-it {
+	height: 44px;
+	margin-right: 8px !important;
+}
+
+.get-it img {
+	height: 100%;
+}
+
+.adv-wrap, .adv {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.adv-wrap {
+    position: absolute;
+    top: -100px;
+}
+footer {
+    margin-top: 100px;
+}
+
+
+@media (max-width: 1325px) {
+    .somegoods160 {
+        display: block !important;
+        width: 160px;
+        position: absolute;
+        right: 4%;        
+    }  
+    .somegoods300 {
+      display: none !important;
+    } 
+
+    .width-setter {
+      width: 98%;
+    }
+}
+
+@media (max-width: 1250px) {
+    .somegoods160 {
+      right: 2%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .somegoods {
+        display: none !important;
+    }   
+
+    .width-setter {
+      width: 98%;
+    }
+}
+
+@media (max-width: 1077px) {
+    .somegoods {
+        display: none !important;
+    }   
+
+    .width-setter {
+      width: 98%;
+    }
+
+    .get-it img {
+      display: none;
+    }
+
+    #constructor .page-header {
+      height: 191px;
+    }
+
+    h1 {
+      line-height: 65px;
+      font-size: 45px;
+      font-family: "MullerW00-Medium";
+      position: relative;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    h1 small {
+      position: absolute;
+      top: 46px;
+      left: 0;
+      margin-left: 0;
+      font-family: "MullerW00-Light";
+      font-size: 23px;
+      width: 100%;
+      letter-spacing: 8px;
+      line-height: 55px;
+    }
+
+    #constructor .force-vader {
+      float: left;
+      background-image: url('/static/images/told2.png');
+      width: 600px;
+      margin-left: 91px;
+    }
+
+    #constructor .force-vader img {
+      float: left;
+    }
+
+    #constructor .force-vader .wisdom {
+      font-size: 21px;
+      left: 36px;
+      top: 17px
+    }
+
+    .responsive {
+      display: block;
+    }
+
+
+    .notresponsive {
+      display: none;
+    }
+
+    .btn-group {
+      margin-left: 3%;
+      width: 40%;
+    }
+
+    .downbutton {
+      width: 263px;
+      height: 120px;
+      display: block;
+      margin-bottom: 20px;
+      width: 100%;
+      background-position: 18px 45px;
+    }
+    .vkset {
+      background-position: 13px 50px;
+    }
+
+    #constructor-panel {
+      width: 100%;
+    }
+
+  #constructor-panel .viewport .viewport-col.modal-col {
+    float: left;
+    width: 400px;
+  }
+
+  #constructor-panel .viewport .viewport-col {
+    display: block;
+  }
+
+  #constructor-panel .layers-regenerate {
+    width: 305px;
+    height: 101px; 
+    margin-right: 3%;
+    background-position: 35px 40px;   
+    padding-left: 95px;
+    line-height: 101px;
+    font-size: 30px;
+  } 
+
+  .malefemale  {
+    height: 101px;
+  }
+
+  .group-control{
+    height: 101px;
+    width: 19.3%;
+    background-position: 75px 23px;
+    line-height: 135px;
+  }
+
+  .female {
+    padding-left: 51px;
+  }
+
+  .layer {
+    max-width: 99% !important;
+    height: 280px !important;
+  }
+
+  .nav-pills > li > a  {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .nav-pills > .active > a, .nav-pills > .active > a:hover { 
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  #constructor-panel .layers .layer .item  {
+    width: 129px;
+    height: 129px;
+  }
+
+  .jspVerticalBar {
+    right: 7px !important;
+  }
+
+  .belowad {
+    width: 720px;
+    height: 89px;
+  border-width: 1px;
+  border-color: rgb(129, 129, 129);
+  border-style: dashed;
+  background-color: rgba(184, 184, 184, 0.129);    
+  margin: 0 auto;
+  margin-top: 33px;
+  display: none;
+  }
+
+  .butn {
+    padding-right: 10px;
+  }
+
+  #footer-text div {
+    float: left;
+  } 
+
+  #footer {
+    height: 200px;
+  }  
+
+ #footer-text div:first-child {
+  width: 100%;
+  line-height: 46px;
+  border-bottom: 1px rgba(255, 255, 255, 0.2) dashed;
+  margin-left: -8px;
+  padding-left: 8px;
+ }
+
+ #footer-text div:nth-child(2) {
+  width: 100%;
+  line-height: 58px;
+  text-align: left;
+ }
+
+
+  #footer-text .pull-right a:first-child {
+    margin-right: 27%;
+  }
+
+  #vk_like {
+    border: none !important;
+  }
+
+  #footer-text .like-buttons {
+    width: 100%;
+  }  
+
+  #footer-text .like-buttons > div {
+    margin-right: 2%;
+    margin-top: -1px;   
+  }
+
+  #footer-text .like-buttons > iframe {
+    margin-right: 2%;
+  }
+
+  #header .heading  {
+    font-size: 39px;
+  }
+
+}
+
+
+@media (max-width: 763px) { 
+  h1 {
+    font-size: 31px;
+  }
+
+  h1 small {
+    font-size: 11px;
+  }
+
+  .inputs {
+    width: 100%;
+  }
+
+  #constructor .force-vader {
+    display: none;
+  }
+
+  #constructor .page-header {
+      height: 107px;
+  }  
+
+  #constructor-panel .viewport .viewport-col.modal-col {
+    float: none;
+    margin: auto;
+  }  
+
+  .btn-group {
+    width: 400px;
+    margin-left: 0;
+  }  
+
+  #action-buttons {
+    text-align: center;
+  }
+
+  #constructor-panel .layers-regenerate  {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .malefemale {
+    margin: auto;
+    margin-top: 20px;
+    width: 400px;
+  }
+
+  .group-control {
+    width: 143px
+  }
+
+  .nav-pills > li > a {
+    padding-right: 9px;
+    padding-left: 9px;
+  }  
+
+  .nav.tabs {
+    width: 500px;
+    margin: auto;
+  }
+
+  #footer-text .pull-right a:first-child {
+    margin-right: 6%;
+  }  
+
+  #footer-text div:nth-child(2) {
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 480px) {  
+  #header .heading {
+      font-size: 23px;
+  }
+
+  .butn {
+    width: 152px;
+  }
+
+  h1 {
+      font-size: 21spx;
+  }  
+
+  h1 small {
+    letter-spacing: 4px;
+  }
+
+  #constructor-panel .viewport {
+    display: block;
+  }
+
+  .nav.tabs {
+    width: 100%;
+  }
+
+  .nav-pills > .active > a,
+  .nav-pills > .active > a:hover   {
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+}
+
+@media (max-width: 400px) { 
+  .butn {
+    width: 118px;
+    font-size: 11px;
+  }
+
+  #header .heading {
+      font-size: 21px;
+  }  
+
+  h1 {
+      font-size: 17px;
+  }  
+
+  h1 small {
+    letter-spacing: 2px;
+  }
+
+  #constructor-panel .carousel {
+      display: inline-block;
+      width: 100%;
+      height: 400px;
+  }  
+
+  #constructor-panel .viewport .viewport-col.modal-col {
+    width: 100%;
+  } 
+
+  .btn-group {
+    width: 100%;
+  } 
+
+  #constructor-panel .layers-regenerate  {
+    width: 76%;
+    padding-left: 24%;
+  }
+
+  .malefemale {
+    width: 100%;
+  }
+
+  .group-control {
+      width: 34%;
+  }  
+
+  .male {
+    padding-left: 16%;
+  }
+
+  .female {
+      padding-left: 15%;
+      background-position: 85px 23px;
+  }  
+}
+
+@media (max-width: 390px) { 
+  #constructor-panel .carousel {
+      height: 373px;
+  }  
+}
+
+@media (max-width: 370px) { 
+  #constructor-panel .carousel {
+      height: 343px;
+  }  
+}
+
+@media (max-width: 340px) { 
+  #constructor-panel .carousel {
+      height: 320px;
+  }  
+}
